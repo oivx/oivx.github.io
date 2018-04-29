@@ -1102,7 +1102,7 @@ body.one-column #content #alpha div.asset-nav a{
 
 body.mobile.one-column #content #alpha div.asset-nav div.entry-tags,
 body.mobile.one-column #content #alpha div.asset-nav div.entry-categories{
-  float:left;
+  /* float:left; */
   width: 70%;
   display: inline-block;
 }
@@ -1110,7 +1110,7 @@ body.mobile.one-column #content #alpha div.asset-nav div.entry-categories{
 @media (max-width: 30rem) {
   body.one-column #content #alpha div.asset-nav div.entry-tags,
   body.one-column #content #alpha div.asset-nav div.entry-categories{
-    float:left;
+    /* float:left; */
     width: 70%;
     display: inline-block;
   }
@@ -1155,7 +1155,7 @@ body.one-column #content #alpha div.asset-nav div.entry-location-mobile{
 body.mobile.one-column #content #alpha div.asset-nav div.entry-location-mobile{
   display: inline-block;
   text-align: right;
-  float:right;
+  /* float:right; */
   width: 20%;
 }
 
@@ -1167,7 +1167,7 @@ body.mobile.one-column #content #alpha div.asset-nav div.entry-location-mobile l
 @media (max-width: 30rem) {
   body.one-column #content #alpha div.asset-nav div.entry-location-mobile{
     display: inline-block;
-    float:right;
+    /* float:right; */
     text-align: right;
     width: 20%;
   }
@@ -1504,11 +1504,7 @@ body.one-column #content #alpha #comments #comment-last:target {
   100% { background-color: rgba(0,0,0,0); }
 }
 
-@-webkit-keyframes target-fade {
-  0% { background-color: rgba(0,0,0,.1); }
-  100% { background-color: rgba(0,0,0,0); }
-}
-@-moz-keyframes target-fade {
+@keyframes target-fade {
   0% { background-color: rgba(0,0,0,.1); }
   100% { background-color: rgba(0,0,0,0); }
 }
